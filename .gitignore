@@ -1,0 +1,4 @@
+node_modules/
+Thumbs.dp
+*.log
+.cache
