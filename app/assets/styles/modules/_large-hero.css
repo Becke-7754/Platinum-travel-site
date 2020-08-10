@@ -11,10 +11,10 @@
   }
 
   &__title {
-    padding-top: 60px;
+    padding-top: 90px;
     font-weight: 300;
     color: $mainBlue;
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     margin: 0;
 
     @mixin atMedium {
@@ -26,7 +26,7 @@
     font-weight: 300;
     color: $mainBlue;
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 
     @mixin atMedium {
       font-size: 2.9rem;
@@ -36,7 +36,7 @@
   &__description {
     color: #fff;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
     max-width: 30rem;
     margin-left: auto;
