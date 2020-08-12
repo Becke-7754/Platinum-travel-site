@@ -1,5 +1,6 @@
 .large-hero {
   position: relative;
+  border-bottom: 10px solid $mainBlue;
 
   &__text-content {
     position: absolute;
@@ -46,7 +47,6 @@
       font-size: 1.875rem;
     }
   }
-  border-bottom: 10px solid $mainBlue;
 
   &__image {
     display: block;
