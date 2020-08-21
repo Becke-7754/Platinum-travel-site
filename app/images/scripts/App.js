@@ -1,1 +1,0 @@
-alert("Test hiij baina");

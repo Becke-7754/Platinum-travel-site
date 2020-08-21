@@ -13,7 +13,8 @@
 
   @mixin atMedium {
     &--testimonial {
-      background: url("/images/testimonials-bg.jpg") no-repeat top center/cover;
+      background: url("/assets/images/testimonials-bg.jpg") no-repeat top
+        center/cover;
     }
   }
 }

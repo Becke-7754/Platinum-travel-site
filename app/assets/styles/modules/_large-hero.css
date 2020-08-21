@@ -19,6 +19,7 @@
     margin: 0;
 
     @mixin atMedium {
+      margin-left: 25px;
       font-size: 4.8rem;
     }
   }
