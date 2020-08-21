@@ -1,5 +1,8 @@
 html {
   scroll-behavior: smooth;
+  @mixin atSmall {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
