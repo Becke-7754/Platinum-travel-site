@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
     "lazysizes": "^5.2.2",
     "lodash": "^4.17.19",
     "webpack-dev-server": "^3.11.0"
