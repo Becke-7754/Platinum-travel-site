@@ -5,11 +5,30 @@ import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 import ClientPage from "./modules/ClientPage";
 
+// React belonging codes
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+function MyReactComponent() {
+  return (
+    <div>
+      <h1>Энэ бол React component</h1>
+      <p> React бол гайхалтай</p>
+    </div>
+  );
+}
+
+ReactDOM.render(
+  <MyReactComponent />,
+  document.querySelector("my-react-example")
+);
+
 new ClientPage();
-let stickyHeader = new StickyHeader();
+new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 90);
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 50);
-let mobileMenu = new MobileMenu();
+new MobileMenu();
 let modal;
 
 document.querySelectorAll(".open-modal").forEach((el) => {
