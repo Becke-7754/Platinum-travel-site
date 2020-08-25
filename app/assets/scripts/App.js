@@ -10,18 +10,13 @@ import ClientPage from "./modules/ClientPage";
 import React from "react";
 import ReactDOM from "react-dom";
 
-function MyReactComponent() {
-  return (
-    <div>
-      <h1>Энэ бол React component</h1>
-      <p> React бол гайхалтай</p>
-    </div>
-  );
-}
+//Өөрсдийн бичиж өгсөн React component-ийг импорт хийх
+
+import MyReactComponent from "./modules/MyReactComponent";
 
 ReactDOM.render(
   <MyReactComponent />,
-  document.querySelector("my-react-example")
+  document.querySelector("#my-react-example")
 );
 
 new ClientPage();
